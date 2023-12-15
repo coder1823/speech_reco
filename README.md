@@ -1,2 +1,7 @@
-# speech_reco
+## Speech Reco
+
 Speech Recognition
+
+#### License
+
+MIT

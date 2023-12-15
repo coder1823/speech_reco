@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include speech_reco *.css
+recursive-include speech_reco *.csv
+recursive-include speech_reco *.html
+recursive-include speech_reco *.ico
+recursive-include speech_reco *.js
+recursive-include speech_reco *.json
+recursive-include speech_reco *.md
+recursive-include speech_reco *.png
+recursive-include speech_reco *.py
+recursive-include speech_reco *.svg
+recursive-include speech_reco *.txt
+recursive-exclude speech_reco *.pyc
