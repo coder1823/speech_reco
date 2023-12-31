@@ -1,0 +1,86 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "field:item_name",
+ "creation": "2023-12-31 22:00:43.575730",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "item_name",
+  "item_cost",
+  "item_category",
+  "item_quantity",
+  "unit_measure",
+  "item_image",
+  "item_tamil_name"
+ ],
+ "fields": [
+  {
+   "fieldname": "item_name",
+   "fieldtype": "Data",
+   "label": "Item Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "item_cost",
+   "fieldtype": "Currency",
+   "label": "Item Cost"
+  },
+  {
+   "fieldname": "item_category",
+   "fieldtype": "Select",
+   "label": "Item Category",
+   "options": "\nFood\nSnacks"
+  },
+  {
+   "fieldname": "item_image",
+   "fieldtype": "Attach Image",
+   "label": "Item Image"
+  },
+  {
+   "fieldname": "item_tamil_name",
+   "fieldtype": "Data",
+   "label": "Item tamil name"
+  },
+  {
+   "fieldname": "item_quantity",
+   "fieldtype": "Data",
+   "label": "Item Quantity"
+  },
+  {
+   "fieldname": "unit_measure",
+   "fieldtype": "Select",
+   "label": "Unit Measure",
+   "options": "\nNos\nML\nGram"
+  }
+ ],
+ "hide_toolbar": 1,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-12-31 23:11:24.677264",
+ "modified_by": "Administrator",
+ "module": "SSS Food list",
+ "name": "Item List",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
